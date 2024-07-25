@@ -46,7 +46,4 @@
     3. head에 외부 파일을 link하는 방법
 
 
-- ~_~
-
--bootstrap
-    - 쌈!@뽕
+- bootstrap 템플릿 및 컴포넌트 사용하기

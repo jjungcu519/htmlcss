@@ -12,7 +12,9 @@
         <input type="text" id="name">
 
         <label for="email">E-mail:</label>
-        <input type="text" id="email" name="email">
+        <input type="text" id="email" type="email" data-sb-validations="required,email">
+        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
 
         <label for="message">Message: </label>
         <textarea name ="" id="mesaage"></textarea>

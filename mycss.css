@@ -1,16 +1,12 @@
-h3{
+h3 {
     color: greenyellow;
-}
-
-li{
-    list-style-type: none;
 }
  
 .square {
     list-style-type: square;
 }
 
-.roman{
+.roman {
     list-style: upper-roman;
 }
 
@@ -18,15 +14,15 @@ li{
     color: palevioletred;
 }
 
-li.square#first{
+li.square#first {
     font-size: 50px;
 }
 
-a.link{
+a:link {
     color: palevioletred
 }
 
-a.visited{
+a:visited {
     color: seagreen
 }
 
@@ -48,4 +44,8 @@ div.square {
 
 #two {
     background-color: palevioletred
+}
+
+.parent {
+    display: flex;
 }
