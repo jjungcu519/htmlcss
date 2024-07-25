@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>어서오세요. 서브웨이입니다.</h1>
+        <div>
+            <label for="">이름: </label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="">날짜: </label>
+            <input type="date" name="date">
+        </div>
+
+        <hr>
+
+        <h2>샌드위치 선택</h2>
+        <input type="radio" name="menu" id="egg" value="egg">
+        <label for="egg">에그마요</label>
+
+        <input type="radio" name="menu" id="blt" value="blt">
+        <label for="blt">BLT</label>
+
+        <input type="radio" name="menu" id="chicken" value="chicken">
+        <label for="chicken">로스티드 치킨</label>
+
+        <hr>
+
+        <h2>빵 사이즈</h2>
+        <input type="number" min="15" max="30" step="15" name="size">
+
+        <hr>
+
+        <h2>빵 종류</h2>
+        <select name="bread" id="">
+            <option value="honey">허니오트</option>
+            <option value="flat">플렛브래드</option>
+        </select>
+
+        <hr>
+
+        <h2>야채/소스</h2>
+        <input type="checkbox" name="val">
+        <label for="">발사믹</label>
+
+        <input type="checkbox"name="salt">
+        <label for="">소금</label>
+
+        <input type="checkbox" name="wine">
+        <label for="">레드와인비니거</label>
+        
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>

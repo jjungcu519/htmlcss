@@ -1,0 +1,51 @@
+h3{
+    color: greenyellow;
+}
+
+li{
+    list-style-type: none;
+}
+ 
+.square {
+    list-style-type: square;
+}
+
+.roman{
+    list-style: upper-roman;
+}
+
+#first {
+    color: palevioletred;
+}
+
+li.square#first{
+    font-size: 50px;
+}
+
+a.link{
+    color: palevioletred
+}
+
+a.visited{
+    color: seagreen
+}
+
+div.square {
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+}
+
+.border {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.margin {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#two {
+    background-color: palevioletred
+}
